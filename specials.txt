@@ -1,0 +1,79 @@
+# This file lists Android apps that require special arguments for opening files
+# (ie. calling the activity with a custom action and extra fields)
+#
+# Each section has the app name, system ID and app activity,
+# then the action (`android.intent.action.*`) the app expects (usually `MAIN` or `VIEW`),
+# then the list of arguments in one line.
+#
+# For system IDs, please see the README file in this directory.
+#
+
+
+app: AetherSX2
+systemid: playstation2
+activity: xyz.aethersx2.android/.EmulationActivity
+action: MAIN
+args: -e bootPath {file.documenturi}
+
+
+app: Citra MMJ
+systemid: 3ds
+activity: org.citra.emu/.ui.main.MainActivity
+action: VIEW
+args: -e GamePath {file.path}
+
+
+app: Dolphin
+systemid: gamecube
+activity: org.dolphinemu.dolphinemu/.ui.main.MainActivity
+action: VIEW
+args: -e AutoStartFile {file.path}
+
+
+app: DuckStation
+systemid: playstation
+activity: com.github.stenzek.duckstation/.EmulationActivity
+action: MAIN
+args: -e bootPath {file.path} -ez resumeState 0
+
+
+app: ePSXe
+systemid: playstation
+activity: com.epsxe.ePSXe/.ePSXe
+action: MAIN
+args: -e com.epsxe.ePSXe.isoName {file.path}
+
+
+app: PPSSPP
+systemid: playstation_portable
+activity: org.ppsspp.ppsspp/.PpssppActivity
+action: VIEW
+args: -d {file.documenturi}
+
+
+app: PPSSPP Gold
+systemid: playstation_portable
+activity: org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity
+action: VIEW
+args: -d {file.documenturi}
+
+
+app: Yaba Sanshiro 2 Pro
+systemid: sega_saturn
+activity: org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause
+action: VIEW
+args: -e org.uoyabause.android.FileNameEx {file.path}
+
+
+app: Yaba Sanshiro
+systemid: sega_saturn
+activity: org.uoyabause.android/.Yabause
+action: VIEW
+args: -e org.uoyabause.android.FileNameEx {file.path}
+
+
+app: Yaba Sanshiro Pro
+systemid: sega_saturn
+activity: org.uoyabause.android.pro/org.uoyabause.android.Yabause
+action: VIEW
+args: -e org.uoyabause.android.FileNameEx {file.path}

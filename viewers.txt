@@ -1,0 +1,39 @@
+# This file lists Android apps that support opening files directly
+# (ie. calling the activity with the VIEW action)
+#
+# Each line has the app name, system ID and app activity, separated by comma.
+# For system IDs, please see the README file in this directory.
+#
+
+2600.emu, atari_2600, com.explusalpha.A2600Emu/com.imagine.BaseActivity
+Ataroid, atari_2600, com.androidemu.atari/.EmulatorActivity
+C64.emu, commodore_64, com.explusalpha.C64Emu/com.imagine.BaseActivity
+ColEm Deluxe, colecovision, com.fms.colem.deluxe/com.fms.emulib.MainActivity
+DraStic, nds, com.dsemu.drastic/.DraSticActivity
+Flycast, dreamcast, com.flycast.emulator/com.reicast.emulator.MainActivity
+FPSE, playstation, com.emulator.fpse/.Main
+FPSE64, playstation, com.emulator.fpse64/.Main
+GBA.emu, game_boy_advance, com.explusalpha.GbaEmu/com.imagine.BaseActivity
+GBC.emu, game_boy, com.explusalpha.GbcEmu/com.imagine.BaseActivity
+GBCoid, game_boy, com.androidemu.gbc/.EmulatorActivity
+Gearoid, master_system, com.androidemu.gg/.EmulatorActivity
+Gensoid, mega_drive, com.androidemu.gens/.EmulatorActivity
+MAME4droid, mame, com.seleuco.mame4droid/.MAME4droid
+MD.emu, mega_drive, com.explusalpha.MdEmu/com.imagine.BaseActivity
+MSX.emu, msx, com.explusalpha.MsxEmu/com.imagine.BaseActivity
+Mupen64 Plus AE, nintendo_64, paulscode.android.mupen64plusae/.MainActivity
+Mupen64 Plus FZ Pro, nintendo_64, org.mupen64plusae.v3.fzurita.pro/paulscode.android.mupen64plusae.SplashActivity
+Mupen64 Plus FZ, nintendo_64, org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity
+My OldBoy!, game_boy, com.fastemulator.gbc/.EmulatorActivity
+MyBoy! Free, game_boy_advance, com.fastemulator.gbafree/com.fastemulator.gba.EmulatorActivity
+MyBoy!, game_boy_advance, com.fastemulator.gba/.EmulatorActivity
+Neo.emu, fb_alpha, com.explusalpha.NeoEmu/com.imagine.BaseActivity
+NES.emu, nes, com.explusalpha.NesEmu/com.imagine.BaseActivity
+NESoid, nes, com.androidemu.nes/.EmulatorActivity
+NGP.emu, neo_geo_pocket, com.explusalpha.NgpEmu/com.imagine.BaseActivity
+PCE.emu, pc_engine, com.explusalpha.PceEmu/com.imagine.BaseActivity
+redream, dreamcast, io.recompiled.redream/.MainActivity
+Reicast, dreamcast, com.reicast.emulator/.MainActivity
+Snes9xPlus, super_nes, com.explusalpha.Snes9xPlus/com.imagine.BaseActivity
+SuperRetro16 Lite, super_nes, com.bubblezapgames.supergnes_lite/com.bubblezapgames.supergnes.IntentFilterActivity
+SuperRetro16, super_nes, com.bubblezapgames.supergnes/.IntentFilterActivity
